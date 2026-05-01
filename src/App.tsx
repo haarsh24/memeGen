@@ -378,8 +378,20 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-20 py-8 border-t border-zinc-900 w-full flex items-center justify-center text-zinc-500 text-sm">
-        <span>Made with ❤️ by <a href="https://github.com/haarsh24" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-primary/80 transition-colors font-medium">harsh</a></span>
+      <footer className="mt-20 w-full">
+        <div className="mx-auto max-w-3xl rounded-3xl border border-zinc-800/70 bg-zinc-950/80 px-6 py-5 text-center text-zinc-400 text-sm shadow-2xl shadow-black/20">
+          <span>
+            Made with <span className="text-rose-500">❤️</span> by{' '}
+            <a
+              href="https://github.com/haarsh24"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-primary hover:text-brand-primary/80 transition-colors font-semibold"
+            >
+              harsh
+            </a>
+          </span>
+        </div>
       </footer>
     </div>
   );
