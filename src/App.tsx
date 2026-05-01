@@ -378,20 +378,8 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-20 py-8 border-t border-zinc-900 w-full flex flex-col md:flex-row items-center justify-between gap-4 text-zinc-500 text-sm">
-        <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-zinc-800 rounded flex items-center justify-center">
-            <Sparkles className="w-3 h-3 text-zinc-400" />
-          </div>
-          <span>Powered by Gemini 3 Flash Vision</span>
-        </div>
-        <div className="flex items-center gap-6">
-          <a href="#" className="hover:text-zinc-300 transition-colors">Privacy</a>
-          <a href="#" className="hover:text-zinc-300 transition-colors">Terms</a>
-          <a href="#" className="hover:text-zinc-300 transition-colors flex items-center gap-1">
-            <Share2 className="w-3 h-3" /> Share App
-          </a>
-        </div>
+      <footer className="mt-20 py-8 border-t border-zinc-900 w-full flex items-center justify-center text-zinc-500 text-sm">
+        <span>Made with ❤️ by <a href="https://github.com/haarsh24" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-primary/80 transition-colors font-medium">harsh</a></span>
       </footer>
     </div>
   );
