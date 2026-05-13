@@ -1,6 +1,7 @@
 # 🎨 MemeGenius AI – Because the Internet Needs More Chaos
 
-![only fans](image.png)
+![MemeGenius AI Preview](https://placehold.co/1200x600/ec4899/ffffff?text=MemeGenius+AI+Preview)
+*(Pro tip: In a real repo, replace this with a screenshot of the app in action!)*
 
 Welcome to **MemeGenius AI**, the world's first (probably) meme generator that actually understands the "vibe." No more generic text on overused cat photos. We use raw, uncut AI to analyze your photos and deliver the humor your followers deserve.
 

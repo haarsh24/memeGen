@@ -566,7 +566,7 @@ export default function App() {
           <Heart className="w-4 h-4 text-brand-primary fill-brand-primary animate-pulse" />
           <span>by</span>
           <a 
-            href="https://github.com/haarsh24" 
+            href="https://www.kumarharsh.in" 
             target="_blank" 
             rel="noopener noreferrer"
             className="font-bold text-zinc-300 hover:text-brand-primary transition-colors hover:underline decoration-brand-primary/30 underline-offset-4"
